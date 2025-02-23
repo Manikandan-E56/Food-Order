@@ -4,7 +4,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import "./MyOrders.css"
 import { StoreContext } from '../../context/StoreContext';
 import axios from 'axios';
-import { assets } from './../../../../admin/src/assets/assets';
+import { assets } from './../../assets/adassets.js';
 
 const MyOrders = () => {
 
